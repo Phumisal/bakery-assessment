@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Weebly's Bakery</title>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <img src="bakery-logo-template_441059-123.avif" alt="Weebly's Bakery" width="100" height="100" />
+        <div class="right-corner">
+            <nav class="d-flex">
+                <div class="nav-item"><a href="#home">Home</a></div>
+                <div class="nav-item"><a href="#about">About</a></div>
+                <div class="nav-item"><a href="#services">Services</a></div>
+                <div class="nav-item"><a href="#contact">Contact</a></div>
+
+                <div>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAH4AdQMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIDBQcIBgT/xAA8EAABAwMCAwQGBwcFAAAAAAABAAIDBAURBhIhMUEHE1GRFiJWYXHhFDJSgZOxwQgVF0OUouIzQlOCof/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDcqk0IaFYAgQCmAgJhAYQE0YQCE0IEkpJIFhQIViRQVEKBCvIyqyEFaEyEILAFMJAKQQCaEEgc0DQkHNP+4eaYIPJAITQgSE0IEkmhBFRIU0sIKihSI9yaCQTCQTCBrAa40yzVun5bTJVyUoe9rxIwZ4tOcEdR7vgs+mg0e/sCd/Lv8f8A2o/8l937P1wmhF607VuIkpJe9ZGXZDOJY8D3bgPNbiXNHaSbhpLtJulRaKuaifVtEzZITtJY/BcPhvafJB0uhcm+nurvaO4fifJHp7q72juH4nyQdZIXJvp7q72juH4nyR6e6u9o7h+J8kHWSS5h0zrnWc+obdTwXmrqnzVDI+4mIc14JwQRjljPFdPBAJJpIIoTKSBhSSHJNAJpBNALSv7Rdr4We7sbyc+lkPxG5v5PW6l4ztetRuugLmxjcy0zRUx8M8WHJ/t3D70HLqEZHiEtzfEeaBoS3N8R5o3N55Hmg2l2BWH6fqWovEzMw26LbGT/AMr+A8m7vMLoReO7J9P+j+iqKKVm2qqh9Jn8dzuQPwbtH3L2KBJFNBQRQhCACkohMIGmkmgFXUwMqYJIJRujkYWOHiCMFWIQcxaUvdo0Pd71bNR2WO6NZN3Ue+ONzo3MLgT63QjHkvT/AMUNB+xMX9PTr0/atrem0lUQUVDaqKpuVRH3z31EQLWMyQCccSSQevRHZZrSj1hLUUFytNBBcII+9BhiGyVmcE4PEEEjPHqg8x/FDQfsTF/T06be1LQjXBzdFRgg5B+j0/BbQ1lcLTpXTtVd6i208vdABkQjaDI8nDRnHDj18FqrTPayaq+09LerFa20dTK2LfTw4dCXHAJzncMkZ5fog27ozU9Jq2yMulBDPDEZHRlkzQCC3njHAj3hZ1QjYyNgZG1rWt5NaMAKSASTSQJCEkACpKtpUwUEkJJoGhJNBrrtT7OJNYy09wttTFBcII+6InzskZkkDI4ggk9DzR2WdnD9Hy1FfcqiKe4zR90BDnZEzOSATgkkgdByWxUIMJrHTsGqdPVNpqJDEJcFkoGTG8HLTjrxWq9M9idwpb7T1V6r6R1FTStkDKfcXTbTkA5ADRkDPP8AVbvSQA5IQhAJFCRQIlJRJTQRaVMHKpBVgKCwJ5UAVIIAuPgol7hyCmhBSZZByblLvZfsFXoQVCST7KkHu8FNCAyhCiSgagSglQcUAShRKSC3uXeIQInDqFehBUGO9yeMHGRlWLE1dpmnq31DK+WJx/0w3OGZ25HPkdvLhz8eKDJ4TwVhGWKZj2v/AHlNu3BzyC4b+pB9bln9Pfluss5wW3OcODS1riXkjO3PHd4tz9/xyGZ59QnhYiG0VERmd+8ZXOljDCSDwwfrfW58eP8A5hDbPUCXvHXSpOH7g0OcAOfD63Hp5cueQyyMHK+CvtgrHxvMoGwPHrs3n1vjwwPh0C+IadYwFkMkTYsuGx0RPqkOGMhw+1z6hoHRBnMFRLSsC/TQlk3uqhnDf5IGcYPj1xh3i3hw5rKWy3RW8P2bS9+0FwYG8AMAfmfvQfT3bvcl3TvEK9CCjuXeIQr0IP/Z"
+                        alt="cart" width="80" />
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <header class="mobile-nav-bar">
+        <img src="bakery-logo-template_441059-123.avif" alt="Weebly's Bakery" width="100" height="100" />
+        <div class="right-corner">
+            <nav class="d-flex">
+                <div class="nav-item"><a href="#home">Home</a></div>
+                <div class="nav-item"><a href="#about">About</a></div>
+                <div class="nav-item"><a href="#services">Services</a></div>
+                <div class="nav-item"><a href="#contact">Contact</a></div>
+
+
+            </nav>
+        </div>
+    </header>
+
+    <main id="ID">
+        <section class="image-with-text">
+            <h1>For All Your Favourite Pastries</h1>
+        </section>
+        <section class="text-find-out-more">
+            <h1>Weebly's Pledge:</h1>
+            <div class="position">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                perferendis error corporis, nobis quaerat porro, cumque aliquid labore
+                aliquam reprehenderit perspiciatis dolores doloremque voluptas minima
+                ratione,molestias recusandae dolorem nam!
+            </div>
+            <section class="pictures">
+                <h3>Our Yummy Pastries:</h3>
+                <br>
+                <div class="photos">
+                    <div class="photo1">
+                        <img src="hqdefault (6).webp" alt="Pastry Associated" width="250" height="250" />
+                    </div>
+                    <div class="photo2">
+                        <img src="hqdefault (5).webp" alt="Pastry Associated" width="250" height="250" />
+                    </div>
+                    <div class="photo3">
+                        <img src="hqdefault (1).webp" alt="Pastry Associated" width="250" height="250" />
+                    </div>
+                    <div class="photo4">
+                        <img src="hqdefault (2).webp" alt="Pastry Associated" width="250" height="250" />
+                    </div>
+
+                    <div class="photo5">
+                        <img src="hqdefault (7).webp" alt="Pastry Associated" width="250" height="250" />
+                    </div>
+                    <div class="photo6">
+                        <img src="hqdefault (3).webp" alt="Pastry Associated" width="250" height="250" />
+                    </div>
+                </div>
+            </section>
+            <section class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XNXuwrXFHRs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </section>
+
+            <h3>Customer Reviews</h3>
+
+            <article class="customer-reviews">
+                <div class="customer">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                        perferendis error corporis, nobis quaerat porro, cumque aliquid
+                        labore aliquam reprehenderit perspiciatis dolores doloremque
+                        voluptas minima ratione,molestias recusandae dolorem nam!
+                    </p>
+                    <br />
+                    <p class="text-right">
+                        <span>~Matilda</span>
+                    </p>
+                </div>
+                <div class="customer">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                        perferendis error corporis, nobis quaerat porro, cumque aliquid
+                        labore aliquam reprehenderit perspiciatis dolores doloremque
+                        voluptas minima ratione,molestias recusandae dolorem nam!
+                    </p>
+                    <br />
+                    <p class="text-right">
+                        <span>~Loren</span>
+                    </p>
+                </div>
+                <div class="customer">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                        perferendis error corporis, nobis quaerat porro, cumque aliquid
+                        labore aliquam reprehenderit perspiciatis dolores doloremque
+                        voluptas minima ratione,molestias recusandae dolorem nam!
+                    </p>
+                    <br />
+                    <p class="text-right">
+                        <span>~Jabu</span>
+                    </p>
+                </div>
+            </article>
+            <section class="centering">
+
+                <iframe class="custom-shadow" id="map-canvas" width="650" height="555" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </section>
+        </section>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="text-muted text-center">
+                <strong>Baked with ♥ by Weebly's Bakery, <em> just for You!</em></strong>
+            </p>
+            <h6 class="text-muted text-center">
+                <small>
+                    <a href="http://www.contact.com/contact-me/">Contact Us</a>
+                    <div class="nav-item"><a href="Tel:+27 81 976 1898">Mobile:</a></div>
+                    <div class="nav-item"><a href="mailto:responsivepage@gmail.com">Email:</a></div>
+
+                </small>
+            </h6>
+        </div>
+        <!--<footer class="footer">
+        <div class="nav-item"><a href="Tel:+27 81 976 1898">Mobile:</a></div>
+        <div class="nav-item"><a href="mailto:responsivepage@gmail.com">Email:</a></div>
+        <div class="nav-item"><a href="#home">Home</a></div>
+        <div class="nav-item"><a href="#about">About</a></div>
+        <div class="nav-item"><a href="#services">Services</a></div>
+        <div class="nav-item"><a href="#contact">Contact</a></div>-->
+    </footer>
+</body>
+
+</html>

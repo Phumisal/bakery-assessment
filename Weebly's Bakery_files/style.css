@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  background-color: brown;
+  border: 1px solid black;
+  text-align: justify;
+  color: burlywood;
+  height: 100px;
+  width: 100px;
+}
+
+/*.heading {
+  color: beige;
+  background-color: black;
+  height: 150px;
+  width: 300px;
+  text-align: center;
+}*/
+.kart {
+  color: rgb(224, 228, 228);
+  text-align: justify;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(41, 8, 99);
+}
+
+.nav-bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+#ID {
+  color: rgb(0, 5, 9);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bolder;
+
+  text-decoration: aqua;
+}
+
+.image-with-text {
+  display: flex;
+
+  background: url("./public/istockphoto-510222476-2048x2048.jpg");
+  flex-wrap: wrap;
+  height: 500px;
+  color: aliceblue;
+  justify-content: center;
+  align-content: center;
+}
+
+.text-find-out-more {
+  padding: 30px 200px;
+  flex-direction: row;
+}
+.photos {
+  grid-auto-rows: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.position {
+  position: relative;
+}
+.customer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  color: black;
+  margin: 10px;
+}
+.footer {
+  background-color: orange;
+  display: flex;
+  justify-content: left;
+}
+.video {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+.customer-reviews {
+  display: flex;
+  font-size: 15px;
+}
+.text-right {
+  text-align: right;
+  width: 100%;
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+}
